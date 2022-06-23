@@ -1,3 +1,6 @@
+from nis import cat
+
+
 class Cat:
 
     say = 'Meow'     
@@ -23,11 +26,14 @@ class Cat:
     def let_say(cls):
         print(cls.say)
 
+print(type(Cat))
 cats = []
 Alice = Cat('Alice', 'White', '2')
+print(type(Alice))
+"""Alice = Cat('Alice', 'White', '2')
 cats.append(Alice)
 Gja = Cat('Gja', 'Black', '1000')
 cats.append(Gja)
 print(cats[0])
 cats[0].say_name()
-cats[1].say_name()
+cats[1].say_name()"""
