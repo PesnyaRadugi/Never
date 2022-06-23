@@ -1,6 +1,3 @@
-from nis import cat
-
-
 class Cat:
 
     say = 'Meow'     
