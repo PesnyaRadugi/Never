@@ -32,3 +32,4 @@ print(Alice.color)
 
 Simba = Lion(name = 'Simba', size = 'Large', type='predator', color='orange', pride='MIIGAiK')
 Simba.atack(Alice)
+print(Simba.name + ' says: ' + Simba.say)
